@@ -52,11 +52,12 @@ function isOrder(obj: any): obj is Order {
     return (
         typeof obj === "object" && obj !== null &&
         typeof obj.type === "string" &&
-        typeof obj.suger === "number"
+        typeof obj.sugar === "number"
     )
 }
 
-function serveOrder(item: isOrder | string) {
+function serveOrder(item: Order | string) {
+    
     if (isOrder(item)) {
         return `Serving ${item.type} cha with ${item.sugar}`
     }
@@ -93,5 +94,8 @@ function brew(order: MasalaCha | GingerCha) {
 
 // Example
 function isStringArray(arr: unknown): arr is string[] {
-    
+    return (
+        Array.isArray(arr) &&
+        arr.every(item => typeof item === "string")
+    )
 }
