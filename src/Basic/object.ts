@@ -3,3 +3,8 @@ let user: { name:string; age:number }= {
   age:20,
 };
 console.log(user);
+
+let user2:{nam:string; ag:number}={
+  nam:"heel",
+  ag:33,
+};
