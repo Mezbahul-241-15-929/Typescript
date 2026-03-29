@@ -1,10 +1,8 @@
-// ---------------Object Type Alias------------
+// ---------------Normal Type Alias------------
 
 type UserName = string;
 
-
 let name: UserName = "Mezbah";
-
 
 console.log(name);
 

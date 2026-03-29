@@ -1,4 +1,4 @@
-// ---------------Object Type Alias------------
+// ---------------Normal Type Alias------------
 let name = "Mezbah";
 console.log(name);
 const user1 = {
