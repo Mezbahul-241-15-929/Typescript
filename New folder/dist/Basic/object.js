@@ -5,4 +5,8 @@ let user = {
     age: 20,
 };
 console.log(user);
+let user2 = {
+    nam: "heel",
+    ag: 33,
+};
 //# sourceMappingURL=object.js.map
