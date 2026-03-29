@@ -1,3 +1,3 @@
-let message: string = "Mezbahul 🌍";
+let message: string = "Meraz 🌍";
 
 console.log(message);
