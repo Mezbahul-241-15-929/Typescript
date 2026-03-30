@@ -1,7 +1,5 @@
-import { Player } from "./Classes/Player.js";
+import { Player } from "./interfaces/Player.js";
+import type { IsPlayer } from "./interfaces/IsPlayer";
 
-const player1 = new Player("John", 25, "USA");
-const player2 = new Player("Jane", 22, "UK");
-
-console.log(player1.name); //John
-console.log(player1.country); //USA
+let sakib: IsPlayer;
+sakib= new Player("Sakib", 30, "Bangladesh");
