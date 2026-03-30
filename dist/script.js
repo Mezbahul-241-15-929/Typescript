@@ -1,4 +1,2 @@
-import { Player } from "./interfaces/Player.js";
-let sakib;
-sakib = new Player("Sakib", 30, "Bangladesh");
+export {};
 //# sourceMappingURL=script.js.map
