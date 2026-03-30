@@ -7,4 +7,4 @@ let b = [4, 'world', { q: 4 }];
 //b[0]="Hello"; //0 index only number
 b[0] = 44;
 export {};
-//# sourceMappingURL=script.js.map
+//# sourceMappingURL=Tuples.js.map
